@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <script src="p5.js"></script>
+  <script src="p5.dom.js"></script>
+  <script src="p5.sound.js"></script>
+  <script src="sketch.js"></script>
+  <script src="AStar/node.js"></script>
+  <script src="AStar/utilities.js"></script>
+  <script src="AStar/AStar.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+  <script>
+      $(document).ready(function(){dataWrraper.init();})
+  </script>
+</head>
+
+<body>
+<div class="alert"><button onclick="location.reload();">Reload</button></div>
+<div class="alert" id="progress">In Progress ...</div>
+</body>
+
+</html>
